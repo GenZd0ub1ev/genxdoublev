@@ -1,0 +1,182 @@
+@charset "utf-8";
+.entrybtns {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.entrybtns input {
+      
+    
+    color: #bb8ce1; 
+  
+    background: transparent; 
+    
+    border: 2px solid #bb8ce1;
+    
+    border-radius: 6px; 
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+/* 悬停样式 */
+.entrybtns input:hover {
+    background-color: #bb8ce1;
+    color: white;
+}
+.imgcent{ position:relative; }
+.imgcent img { position:absolute; top:0; right:0; left:0; bottom:0; margin:auto; }
+body {
+    
+    background-image: url(img/star.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+}
+.bigtitle {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #351b85;
+    border-left: 20px solid #9480d3;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+}
+h3 {
+    text-align: center;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+}
+h4 {
+    text-align:center;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+
+}
+h5 {
+    color: #fff;
+}
+a {
+    color:rgb(255, 255, 255);
+  }
+  a:hover {
+    color: #e2542d;
+    text-decoration: none;
+  }
+  .imgL {
+    float: left;
+    margin-right: 20px;
+  }
+  .clear {
+    clear: both;
+    padding-left: 30px;
+    text-align:left;
+  }
+  .ppp {
+    
+    color: #fff;
+    text-align: left;
+    font-size: 150%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+     
+  }
+   #profile {
+        text-align: left;
+        width: 60%;
+        white-space: nowrap;
+        margin: 0 auto; /
+      }
+  
+  iframe {
+    left: 30%;right: 70%;
+  }
+#winter {
+    text-align: center;
+
+}
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+#contents {
+    margin: 40px;
+    padding: 40px 80px;
+    border: 1px solid #563791;
+    background-color: #fff;
+  }
+  #album1 {
+    color: #fff;
+    text-align: left;
+        width: 70%;
+        white-space: nowrap;
+        margin: 0 auto; /
+  }
+  #album2 {
+    text-align: left;
+        width: 60%;
+        white-space: nowrap;
+        margin: 0 auto; /
+  }
+  #album3 {
+    text-align: left;
+        width: 60%;
+        white-space: nowrap;
+        margin: 0 auto; /
+  }
+  #album4 {
+    text-align: left;
+        width: 60%;
+        white-space: nowrap;
+        margin: 0 auto; /
+  }
+  ol{
+    color: #fff;
+    padding-left: 50%;
+    font-size: 250%;
+  }
+  dl{
+    
+    color: #fff;
+    padding-left: 50%;
+    font-size: 150%;
+  }
+ .good{
+    color: #fff;
+ 
+ }
+ .album-section {
+    display: flex;
+    align-items:flex-start;
+}
+
+.album-section img {
+    margin-right:10px; 
+}
+.album-section dl {
+    padding-left: 5%;
+}
